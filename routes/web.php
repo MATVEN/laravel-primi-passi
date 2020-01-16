@@ -12,7 +12,3 @@
 */
 
 Route::get('/','MyController@index');
-
-Route::get('/', function () {
-    return view('cds');
-});
